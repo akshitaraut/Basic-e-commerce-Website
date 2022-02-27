@@ -1,0 +1,169 @@
+#body{
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bg{
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    color: black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#bg>i{
+    position: absolute;
+    font-size: 200px;
+    /* left: 39%; */
+    top: 23%;
+}
+
+#bg>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    /* align-self: center; */
+}
+
+#bg>h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 70%;
+    position: absolute;
+}
+
+#bg>form>button{
+    position: absolute;
+    top: 80%;
+    border: none;
+    color: white;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    left: 48%;
+}
+
+#mainmenu{
+    background-color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(to right, white, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)); */
+    width: 100%;
+    position: fixed;
+    border-radius: 0 0 50px 0;
+    height: 15%;
+    left: 0%;
+    top: 0%;
+    z-index: 10;
+}
+
+#menu{
+    /* border: 2px red solid; */
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+#menu > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu > #loginbutton{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#menu > #cart{
+    font-size: 45px;
+}
+
+#icon{
+    /* border: 2px solid red; */
+    height: fit-content;
+    width: fit-content;
+    top: 8%;
+    position: absolute;
+    left: 1%;
+}
+
+#icon > img{
+    height: 15%;
+    width: 15%;
+    left: 20%;
+}
+
+#icon >h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 19%;
+    top: -33%;
+    color: white;
+}
+
+#cr{
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+    border-radius: 50px 0 0 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cr > div{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 20%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cr > div > a{
+    text-decoration: underline;
+    color: white;
+}
+
+#contact{
+    background: white;
+    color: rgb(0, 19, 192);
+    border: 3px black solid;
+    height: 10%;
+    width: fit-content;
+    position: fixed;
+    top: 24.5%;
+    z-index: 20;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: -14%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact > a{
+    text-decoration: none;
+    color: rgb(0, 110, 0);
+}
+
+#contact:hover{
+    right: -0.5%;
+}

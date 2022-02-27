@@ -1,0 +1,15 @@
+I have created an e-commerce website named Vertex Electronics wherein, different electronic
+shop owners can share a single database and put their product details in it. These details
+are shown to the user as per the need and category.
+
+Features
+ Login and Register for users
+ Category wise classification of products
+ Seperate section for new releases
+
+Tools
+ HTML
+ CSS
+ PHP
+ MySQL
+ Wamp Server

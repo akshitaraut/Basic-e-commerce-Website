@@ -1,0 +1,103 @@
+body{
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bg{
+    background: black;
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    left: 0%;
+    z-index: -10;
+    top: 0%;
+    transform: rotate(30deg);
+    box-shadow: 30px 30px rgb(163, 163, 163);
+}
+
+#icon{
+    height: 28%;
+    width: fit-content;
+    /* border: 2px red solid; */
+    top: 0%;
+    right: 5%;
+    position: absolute;
+    border-radius: 0 0 20px 0;
+    padding-right: 40px;
+    border-right: 2px white solid;
+}
+
+#icon>p{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    /* left: 30%; */
+
+}
+
+img{
+    position: absolute;
+    height: 300px;
+    bottom: 7%;
+    z-index: -1;
+    left: 60%;
+}
+
+#login{
+    left: 0%;
+    /* border: 2px red solid;; */
+    height: 40%;
+    width: 50%;
+    bottom: 32%;
+    /* border-radius: 30px; */
+    position: absolute;
+    align-items: center;
+    padding-left: 70px;
+    text-decoration: underline;
+}
+
+#login > form > input{
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(219, 219, 219);
+    width: 50%;
+    /* text-align: center; */
+}
+
+#login > form > button{
+    height: 40px;
+    color: white;
+    background: black;
+    border-radius: 20px;
+    border: none;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cr{
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+    border-radius: 50px 0 0 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cr > div{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 20%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cr > div > a{
+    text-decoration: underline;
+    color: white;
+}
